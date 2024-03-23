@@ -2,6 +2,7 @@
 (venv-qmk) astra@pop-os:~/vial-qmk$ make starboards/spruce_left:vial
 Making starboards/spruce_left with keymap vial
 
+Generating: .build/obj_starboards_spruce_left_vial/src/default_keyboard.c                           [OK]
 arm-none-eabi-gcc (15:10.3-2021.07-4) 10.3.1 20210621 (release)
 Copyright (C) 2020 Free Software Foundation, Inc.
 This is free software; see the source for copying conditions.  There is NO
@@ -11,6 +12,8 @@ Size before:
    text	   data	    bss	    dec	    hex	filename
       0	  33702	      0	  33702	   83a6	starboards_spruce_left_vial.bin
 
+Generating: .build/obj_starboards_spruce_left_vial/src/info_config.h                                [OK]
+Generating: .build/obj_starboards_spruce_left_vial/src/default_keyboard.h                           [OK]
 Compiling: .build/obj_starboards_spruce_left_vial/src/default_keyboard.c                           In file included from platforms/chibios/platform_deps.h:18,
                  from quantum/quantum.h:18,
                  from ./.build/obj_starboards_spruce_left_vial/src/default_keyboard.h:27,
