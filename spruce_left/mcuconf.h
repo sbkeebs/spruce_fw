@@ -1,0 +1,5 @@
+#include_next <mcuconf.h>
+
+#undef STM32_SERIAL_USE_USART4
+#define STM32_SERIAL_USE_USART4 TRUE
+#define SERIAL_USART_DRIVER SIOD4
